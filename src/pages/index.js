@@ -11,6 +11,7 @@ export default () => {
   return (
     <>
       <Helmet>
+        
         <meta charSet="utf-8" />
         <title>{title || 'Gatsby Simplefolio'}</title>
         <html lang={lang || 'en'} />

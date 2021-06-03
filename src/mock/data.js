@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'Hey there, This is Mehul Gupta from Bangalore, India. I am a Web Developer who creats web application using various technologies like HTML, CSS, Bootstrap, JavaScript and node.js. Currently I am pursuing my B.E in Information Science and Engineering from RNS Institute of Technology.',
   paragraphTwo: 'Apart from being a Web Developer I like competitive coding and to participate in various coding competition conducted online in websites like codechef, hackkerank and leetcode.',
   paragraphThree: 'I am available for freelancing.',
-  //resume: 'mehul.pdf', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1TPyLFvgsUmCwi7OXLf2fZzaVu5_9-hWo/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

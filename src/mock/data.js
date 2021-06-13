@@ -42,7 +42,7 @@ export const projectsData = [
     title: 'Marwadi Foods',
     info: 'A Web Application with a working database designed in MySQl for customers to register and login to order their favourite food and can have a view of there previous orders',
     info2: 'Technology used - HTML, CSS, BOOTSTRAP, PHP, MySQl.',
-    url: '',
+    // url: '',
     repo: 'https://github.com/mehulrnsit/Online-Food-Ordering-System', // if no repo, the button will not show up
   },
 

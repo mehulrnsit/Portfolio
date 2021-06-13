@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'mehul.jpeg',
   paragraphOne: 'Hey there, This is Mehul Gupta from Bangalore, India. I am a Web Developer who creats web application using various technologies like HTML, CSS, Bootstrap, JavaScript and node.js. Currently I am pursuing my B.E in Information Science and Engineering from RNS Institute of Technology.',
-  paragraphTwo: 'Apart from being a Web Developer I like competitive coding and to participate in various coding competition conducted online in websites like codechef, hackkerank and leetcode.',
+  paragraphTwo: 'Apart from being a Web Developer I like competitive coding and to participate in various coding competition conducted online in websites like codechef, codeforces, hackkerank and leetcode.',
   paragraphThree: 'I am available for freelancing.',
   resume: 'https://drive.google.com/file/d/1TPyLFvgsUmCwi7OXLf2fZzaVu5_9-hWo/view?usp=sharing', // if no resume, the button will not show up
 };
@@ -28,13 +28,14 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'ToDo.png',
-    title: 'ToDo List',
-    info: 'A Web Application for creating Todo List stored in database and can be changed dynamically',
-    info2: 'Technology used - HTML, CSS, BOOTSTRAP,JavaScript, Node.js, Express.js , MongoDB and Mongoose',
-    url: 'https://aqueous-hamlet-66836.herokuapp.com/',
-    repo: 'https://github.com/mehulrnsit/ToDoList', // if no repo, the button will not show up
+    img: 'netflix-clone.png',
+    title: 'Netflix Clone',
+    info: 'A Netflix clone frontend designed using React and JavaScript with feature of watching trailers of various movies implemented with the help of react-youtube and themoviedb-api packages.',
+    info2: 'Technology used - HTML, CSS, BOOTSTRAP,JavaScript, React',
+    url: 'https://netflix-clone-af2b8.web.app/',
+    repo: 'https://github.com/mehulrnsit/Clone', // if no repo, the button will not show up
   },
+
   {
     id: nanoid(),
     img: 'marwadifoods.png',
@@ -43,6 +44,16 @@ export const projectsData = [
     info2: 'Technology used - HTML, CSS, BOOTSTRAP, PHP, MySQl.',
     url: '',
     repo: 'https://github.com/mehulrnsit/Online-Food-Ordering-System', // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
+    img: 'ToDo.png',
+    title: 'ToDo List',
+    info: 'A Web Application for creating Todo List stored in database and can be changed dynamically',
+    info2: 'Technology used - HTML, CSS, BOOTSTRAP,JavaScript, Node.js, Express.js , MongoDB and Mongoose',
+    url: 'https://aqueous-hamlet-66836.herokuapp.com/',
+    repo: 'https://github.com/mehulrnsit/ToDoList', // if no repo, the button will not show up
   },
   
   {
